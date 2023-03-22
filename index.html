@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
     <header>
+      <!-- SITE NAVIGATION -->
       <nav>
-        <a href="/index.html">Web<span>Studio</span></a>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <a class="logo brand-main-color highlight" href="/index.html"
+          >web<span class="brand-secondary-color">Studio</span></a
+        >
+        <ul class="nav-portfolio">
+          <li><a class="highlight" href="#">Agencja</a></li>
+          <li>
+            <a class="highlight" href="/portfolio.html"
+              ><span class="brand-main-color">Portfolio</span></a
+            >
+          </li>
+          <li><a class="highlight" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <!-- CONTACT INFO -->
+      <ul class="contact-info">
+        <li><a class="highlight" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="highlight" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>
@@ -37,29 +48,29 @@
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
             <h3>LOREM IPSUM</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
@@ -69,28 +80,13 @@
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
-            <img
-              src="images/tech1.jpg"
-              alt="writing code"
-              width="370"
-              height="294"
-            />
+            <img src="images/tech1.jpg" alt="writing code" width="370" height="294" />
           </li>
           <li>
-            <img
-              src="images/tech2.jpg"
-              alt="mobile design"
-              width="370"
-              height="294"
-            />
+            <img src="images/tech2.jpg" alt="mobile design" width="370" height="294" />
           </li>
           <li>
-            <img
-              src="images/tech3.jpg"
-              alt="ui & ux design"
-              width="370"
-              height="294"
-            />
+            <img src="images/tech3.jpg" alt="ui & ux design" width="370" height="294" />
           </li>
         </ul>
       </section>
@@ -101,12 +97,7 @@
         <ul>
           <li>
             <figure>
-              <img
-                src="images/person1.jpg"
-                alt="guy with glasses"
-                width="270"
-                height="260"
-              />
+              <img src="images/person1.jpg" alt="guy with glasses" width="270" height="260" />
               <figcaption>
                 <h3>John Doe</h3>
                 <p>Product Designer</p>
@@ -115,12 +106,7 @@
           </li>
           <li>
             <figure>
-              <img
-                src="images/person2.jpg"
-                alt="gal with glasses"
-                width="270"
-                height="260"
-              />
+              <img src="images/person2.jpg" alt="gal with glasses" width="270" height="260" />
               <figcaption>
                 <h3>John Doe</h3>
                 <p>Frontend Developer</p>
@@ -129,12 +115,7 @@
           </li>
           <li>
             <figure>
-              <img
-                src="images/person3.jpg"
-                alt="guy without glasses"
-                width="270"
-                height="260"
-              />
+              <img src="images/person3.jpg" alt="guy without glasses" width="270" height="260" />
               <figcaption>
                 <h3>John Doe</h3>
                 <p>Marketing</p>
@@ -143,12 +124,7 @@
           </li>
           <li>
             <figure>
-              <img
-                src="images/person4.jpg"
-                alt="close up of John Doe"
-                width="270"
-                height="260"
-              />
+              <img src="images/person4.jpg" alt="close up of John Doe" width="270" height="260" />
               <figcaption>
                 <h3>John Doe</h3>
                 <p>UI Designer</p>
@@ -159,12 +135,19 @@
       </section>
     </main>
     <footer>
-      <a href="#">Web<span>Studio</span></a>
+      <a class="logo brand-main-color highlight" href="/index.html"
+        >web<span class="brand-tertiary-color">Studio</span></a
+      >
+      <!-- CONTACT INFO -->
       <address>
         <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li class="address highlight">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="address">
+            <a href="mailto:info@example.com"
+              ><span class="highlight-alt">info@example.com</span></a
+            >
+          </li>
+          <li class="address highlight"><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
