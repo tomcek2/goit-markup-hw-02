@@ -51,7 +51,7 @@ body {
   letter-spacing: 0.02em;
 }
 .nav a {
-  color: var(--text-primary-color);
+  color: inherit;
 }
 .contact-info a {
   color: var(--text-light-color);
@@ -72,6 +72,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   border: none;
+  background-color: var(--brand-primary-color);
+  color: var(--brand-tertiary-color);
 }
 .paragraphs h3 {
   text-transform: uppercase;
@@ -87,7 +89,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
 }
-
 .foto-caption h3,
 .foto-caption p {
   font-size: 16px;
@@ -99,7 +100,7 @@ body {
 .foto-caption p {
   color: var(--text-light-color);
 }
-.buttons {
+.buttons-light {
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 500;
@@ -108,11 +109,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
-}
-.background-light {
   background-color: var(--light-background-color);
 }
-.background-special {
+.buttons-light:hover {
   background-color: var(--brand-primary-color);
   color: var(--brand-tertiary-color);
 }
@@ -143,9 +142,5 @@ footer,
 }
 .highlight:hover,
 .highlight:focus {
-  text-decoration: underline var(--brand-primary-color);
-}
-.highlight-alt:hover,
-.highlight-alt:focus {
-  background-color: var(--primary-alpha);
+  color: var(--brand-primary-color);
 }
